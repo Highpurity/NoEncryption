@@ -17,8 +17,9 @@ public class PlayerListener implements Listener {
 
     @EventHandler(priority = EventPriority.LOWEST)
     public void onPlayerJoin (PlayerJoinEvent e) {
-
+        
         final Player player = e.getPlayer();
+        player.sendMessage("Thanks for using NoEncryption, created by Highpurity! Make sure to subscribe over at: youtube.com/highpurity For more quality plugins!")
         final ChannelPipeline pipeline = Compatibility.COMPATIBLE_PLAYER.getChannel(player).pipeline();
         pipeline.addBefore("packet_handler", player.getUniqueId().toString(), new ChannelDuplexHandler() {
 
