@@ -16,3 +16,5 @@ I'll update the plugin every time a new Minecraft version releases.
 ## Why this works
 Since 1.19, chat messages are digitally signed. This means that your messages have a number attached with them that proves your are the one that wrote it. It works similarly to a real life signature, except that it's way more secure.  
 This plugin removes this signature from your messages, so Microsoft will have no way to know that you didn't lie to the system when issuing a report.
+
+# THIS IS A TROLL I DIDNT MAKE THIS OR RLY DO ANYTHING I LOVE DOCLIC UWU
